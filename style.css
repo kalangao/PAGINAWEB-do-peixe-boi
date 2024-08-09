@@ -1,0 +1,63 @@
+body{
+  color: white;
+  background: black;
+  margin: 30px;
+}
+
+header{
+  font-size: 80px;
+  color: white;
+  border-bottom: solid 5px white;
+  margin: 30px;
+  padding: 30px;
+  display: justify;
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.inicio{
+  background: rgb(104,100,100);
+  font-size: 30px;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  font-family: "Delicious Handrawn", cursive; 
+
+}
+
+
+.entrada{
+margin-right: 50px;
+}
+
+
+.descricao{
+  font-size: 40px;
+  text-align: justify;
+}
+
+img{
+  height: 200px;
+}
+
+.animais{
+  display: flex;
+  overflow: auto;
+  gap: 10px;
+}
+
+.outros{
+  font-family: "Delicious Handrawn", cursive; 
+  font-size: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.outros img{
+  opacity:0.5;
+}
+
+.outros img:hover{
+  opacity:1.0;
+  border: solid 3px red;
+  border-radius:20px;
+}
